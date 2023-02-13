@@ -4,8 +4,8 @@ nmcli con add \
   ifname 'wlan0'\
   ssid 'eduroam'\
   wifi-sec.key-mgmt 'wpa-eap'\
-  802-1x.identity 'pedrocosme'\
-  802-1x.password 'K_j10hEschaft%'\
+  802-1x.identity {username}\
+  802-1x.password {password}\
   802-1x.system-ca-certs 'no'\
   802-1x.domain-suffix-match 'rsf.ufmg.br'\
   802-1x.eap 'peap'\
